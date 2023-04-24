@@ -168,6 +168,9 @@ button[type="submit"] {
     font-size: 60px;
     opacity: 50%;
   }
+  #searchButton {
+    display: none;
+  }
 }
 
 @media (min-width: 900px) {

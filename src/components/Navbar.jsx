@@ -31,7 +31,7 @@ const Navbar = () => {
         </button>
         <form onSubmit={handleSubmit} className="navForm">
           <input type="search" placeholder="What can we help you find today?" />
-          <button type="submit">
+          <button id="searchButton" type="submit">
             <SearchIcon />
           </button>
         </form>
