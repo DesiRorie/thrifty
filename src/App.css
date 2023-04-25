@@ -23,6 +23,7 @@ button:hover {
   justify-content: center;
   background-color: var(--main-color);
   height: 80px;
+  z-index: 10000;
 }
 
 .navbarDiv {
