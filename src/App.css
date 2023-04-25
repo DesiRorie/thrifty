@@ -4,7 +4,10 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
 a,
 button:hover {
   cursor: pointer;
@@ -76,7 +79,7 @@ button[type="submit"] {
 }
 .thriftImageDiv {
   margin-top: 120px;
-  width: 100vw;
+  width: 100%;
   height: 400px;
   position: relative;
 }
@@ -92,7 +95,7 @@ button[type="submit"] {
   transform: translate(-50%, -50%);
   font-size: 300px;
   font-weight: 900;
-  opacity: 50%;
+  opacity: 40%;
 }
 #navbarList {
   display: flex;
@@ -140,6 +143,35 @@ button[type="submit"] {
   font-size: large;
   max-width: 300px;
 }
+.shopGenreContainers {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.shopGenres {
+  max-width: 400px;
+  text-align: center;
+  border-radius: 5px;
+  color: var(--main-color);
+  transition: 0.5s;
+}
+.shopGenres img {
+  width: 100%;
+  border-radius: 5px;
+}
+.shopGenres img:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+.shopGenres:hover {
+  scale: 1.01;
+  transition: 0.5s;
+}
+.shirtsPage {
+  margin-top: 99px;
+}
 /*  */
 /*  */
 
@@ -170,6 +202,17 @@ button[type="submit"] {
   }
   #searchButton {
     display: none;
+  }
+  .shopGenreContainers {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+  }
+  .shopGenres img {
+    width: 60%;
+  }
+  .shopGenres {
+    margin-top: 60px;
   }
 }
 
