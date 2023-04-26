@@ -12,7 +12,6 @@ const Homepage = () => {
         <img src={thrift} />
         <div className="shopText">SHOP</div>
       </div>
-
       <div className="greetingDiv">
         <div className="greetingDivContent">
           <h2>EXPLORE THRIFTY</h2>

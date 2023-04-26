@@ -16,6 +16,9 @@ button:hover {
   margin-left: 10px;
   font-size: 40px;
 }
+.clock {
+  font-size: 10px;
+}
 .navbar {
   display: flex;
   position: fixed;
@@ -152,7 +155,8 @@ button[type="submit"] {
   margin-top: 40px;
 }
 .shopGenres {
-  max-width: 400px;
+  max-width: 500px;
+  width: 400px;
   text-align: center;
   border-radius: 5px;
   color: var(--main-color);
@@ -171,7 +175,7 @@ button[type="submit"] {
   transition: 0.5s;
 }
 .shirtsPage {
-  margin-top: 99px;
+  margin-top: 60px;
 }
 /*  */
 /*  */

@@ -3,6 +3,7 @@ import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import { Link } from "react-router-dom";
+import Clock from "./clock";
 const handleSubmit = (e) => {
   e.preventDefault();
 };
@@ -35,6 +36,7 @@ const Navbar = () => {
             <SearchIcon />
           </button>
         </form>
+        {/* <Clock /> */}
       </div>
     </div>
   );
